@@ -78,7 +78,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <a href="/admin/home" class="brand-link">
      @if ($settings !=null)
      @if ($settings->site_logo)
-     <img src="{{asset('storage/settings/logo/'.$settings->site_logo)}}" alt="VP Game" class="brand-image elevation-3" style="opacity: .8">
+     <img src="{{asset('storage/settings/logo/'.$settings->site_logo)}}" alt="NewsWebsite" class="brand-image elevation-3" style="opacity: .8">
      @else
          <span class="brand-text font-weight-light">{{$settings->site_name}}</span> 
      @endif 
